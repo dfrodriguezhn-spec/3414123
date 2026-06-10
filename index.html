@@ -868,7 +868,7 @@
         }
 
         function guardarProducto(e) {
-            e.preventDefault();
+            e.preventDefault(e);
             const sucursal = document.getElementById('prod-sucursal').value.trim().toUpperCase();
             const producto = document.getElementById('prod-name').value;
             const proveedor = document.getElementById('prod-prov').value; 
